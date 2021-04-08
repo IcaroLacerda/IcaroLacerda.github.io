@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site que ajuda a comprar peças de computador">
   <title>INFOTEC</title>
   <link rel="stylesheet" href="css/estilo.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,54 +15,68 @@
 <body>
   <nav>
     <ul>
-      <li><a href="/index.html">Home</a></li>
-      <div class="dropdown">
-        <li><a class="dropbtn">Computador</a></li>
-            <div class="dropdown-content">
-              <a id="processadores" href="/processadores.html">Processador</a>
-              <a id="placadevideo" href="#placadevideo">Placa de Video</a>
-              <a id="memoria" href="#memoria">Memória</a>
-            </div>
-      </div>
-      <div class="dropdown">
-        <li><a class="dropbtn">Outros</a></li>
-        <div class="dropdown-content">
-          <a href="#celulares">Celulares</a>
-          <a href="#servidores">Servidores</a>
+      <li><a href="/index.html"><b>Home</b></a></li>
+      <li>
+        <div class="dropdown">
+          <a class="dropbtn"><b>Computador</b></a>
+          <div class="dropdown-content">
+            <a id="processadores" href="/paginas/processadores.html"><b>Processador</b></a>
+            <a id="placadevideo" href="/paginas/placadevideo.html"><b>Placa de Video</b></a>
+            <a id="memoria" href="/paginas/memoria.html"><b>Memória</b></a>
+          </div>
         </div>
-      </div>
-      <li><a href="#">Sobre nós</a></li>
-      <li><a href="#">Contato</a></li>
+      </li>
+      <li>
+        <div class="dropdown">
+          <a class="dropbtn"><b>Outros</b></a>
+          <div class="dropdown-content">
+            <a href="/paginas/celulares.html"><b>Celulares</b></a>
+            <a href="/paginas/perifericos.html"><b>Periféricos</b></a>
+          </div>
+        </div>
+      </li>
+      <li><a href="/paginas/sobre.html"><b>Sobre nós</b></a></li>
+      <li><a href="/paginas/contato.html"><b>Contato</b></a></li>
     </ul>
-    <span><img src="img/menu.svg"></span>
+    <span><img class="icone-menu" src="/img/menu.svg"></span>
   </nav>
 
-<section id="promoçoes"class="promoçoes">
-  <div class="conteudo">
-    <h1>Melhores ofertas atualmente</h1>
-    <div class="item">
-      <img src="https://images7.kabum.com.br/produtos/fotos/148917/processador-intel-core-i5-11400f-11-geracao-cache-12mb-2-6-ghz-4-4ghz-turbo-lga1200-bx8070811400f_1615574166_gg.jpg" alt="procesador core i5">
-      <h4>Processador Intel Core i5-11400F 11ª Geração, Cache 12MB, 2.6 GHz (4.4GHz Turbo), LGA1200<br><br><br>R$ 1.499,90 a vista</h4>
-      <br>
+  <section id="promoçoes" class="promoçoes">
+    <div class="conteudo">
+      <h1>Melhores ofertas atualmente</h1>
+      <div class="item">
+        <img
+          src="https://images7.kabum.com.br/produtos/fotos/148917/processador-intel-core-i5-11400f-11-geracao-cache-12mb-2-6-ghz-4-4ghz-turbo-lga1200-bx8070811400f_1615574166_gg.jpg"
+          alt="procesador core i5">
+        <h4>Processador Intel Core i5-11400F 11ª Geração, Cache 12MB, 2.6 GHz (4.4GHz Turbo), LGA1200<br><br><br>R$
+          1.499,90 a vista</h4>
+        <br>
+      </div>
+      <div class="item">
+        <img
+          src="https://images8.kabum.com.br/produtos/fotos/110878/memoria-corsair-vengeance-lpx-8gb-3000mhz-ddr4-c16-black-cmk8gx4m1d3000c16_1590146421_gg.jpg"
+          alt="memoria ram ddr4 8gb">
+        <h4>Memória Corsair Vengeance LPX 8GB 3000Mhz DDR4 C16 Black<br><br><br>R$ 319,90 a vista</h4>
+        <br>
+      </div>
+      <div class="item">
+        <img
+          src="https://images8.kabum.com.br/produtos/fotos/130218/monitor-lg-led-27-4k-uhd-ips-hdmi-displayport-freesync-altura-ajustavel-27mu58p-b-awz_1606477437_gg.jpg"
+          alt="monitor lg led 27 4k">
+        <h4>Monitor LG LED 27", 4K, UHD, IPS, HDMI/DisplayPort, AMD Radeon FreeSync, Altura Ajustável,
+          VESA<br><br><br>R$ 1.769,90 a vista</h4>
+        <br>
+      </div>
+      <div class="item">
+        <img
+          src="https://images7.kabum.com.br/produtos/fotos/147247/galaxy-s21-5g-128gb-ram-8gb-octa-core-camera-tripla-cinza-sm-g991bzarzto_1611602412_gg.jpg"
+          alt="samsung galaxy s21">
+        <h4>Samsung Galaxy S21 5G, 128GB, RAM 8GB, Octa-Core, Câmera Tripla, Cinza<br><br><br>R$ 4.839,12 a vista</h4>
+        <br>
+      </div>
     </div>
-    <div class="item">
-      <img src="https://images8.kabum.com.br/produtos/fotos/110878/memoria-corsair-vengeance-lpx-8gb-3000mhz-ddr4-c16-black-cmk8gx4m1d3000c16_1590146421_gg.jpg" alt="memoria ram ddr4 8gb">
-      <h4>Memória Corsair Vengeance LPX 8GB 3000Mhz DDR4 C16 Black<br><br><br>R$ 319,90 a vista</h4>
-      <br>
-    </div>
-    <div class="item">
-      <img src="https://images8.kabum.com.br/produtos/fotos/130218/monitor-lg-led-27-4k-uhd-ips-hdmi-displayport-freesync-altura-ajustavel-27mu58p-b-awz_1606477437_gg.jpg" alt="monitor lg led 27 4k">
-      <h4>Monitor LG LED 27", 4K, UHD, IPS, HDMI/DisplayPort, AMD Radeon FreeSync, Altura Ajustável, VESA<br><br><br>R$ 1.769,90 a vista</h4>
-      <br>
-    </div>
-    <div class="item">
-      <img src="https://images7.kabum.com.br/produtos/fotos/147247/galaxy-s21-5g-128gb-ram-8gb-octa-core-camera-tripla-cinza-sm-g991bzarzto_1611602412_gg.jpg" alt="samsung galaxy s21">
-      <h4>Samsung Galaxy S21 5G, 128GB, RAM 8GB, Octa-Core, Câmera Tripla, Cinza<br><br><br>R$ 4.839,12 a vista</h4>
-      <br>
-    </div>
-  </div>
 
-</section>
+  </section>
 
   <section id="conteudo-drop" class="conteudo-drop">
     <div class="caixa-cima">

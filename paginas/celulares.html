@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site que ajuda a comprar peças de computador">
     <title>INFOTEC</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&&display=swap" rel="stylesheet">
 </head>
@@ -14,30 +15,34 @@
 <body>
     <nav>
         <ul>
-            <li><a href="/index.html">Home</a></li>
-            <div class="dropdown">
-                <li><a class="dropbtn">Computador</a></li>
-                <div class="dropdown-content">
-                    <a id="processadores" href="/processadores.html">Processador</a>
-                    <a id="placadevideo" href="#placadevideo">Placa de Video</a>
-                    <a id="memoria" href="/memoria.html">Memória</a>
+            <li><a href="../index.html"><b>Home</b></a></li>
+            <li>
+                <div class="dropdown">
+                    <a class="dropbtn" href="#computador"><b>Computador</b></a>
+                    <div class="dropdown-content">
+                        <a id="processadores" href="processadores.html"><b>Processador</b></a>
+                        <a id="placadevideo" href="placadevideo.html"><b>Placa de Video</b></a>
+                        <a id="memoria" href="memoria.html"><b>Memória</b></a>
+                    </div>
                 </div>
-            </div>
-            <div class="dropdown">
-                <li><a class="dropbtn">Outros</a></li>
-                <div class="dropdown-content">
-                    <a href="#celulares">Celulares</a>
-                    <a href="#servidores">Servidores</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a class="dropbtn" href="#outros"><b>Outros</b></a>
+                    <div class="dropdown-content">
+                        <a href="celulares.html"><b>Celulares</b></a>
+                        <a href="perifericos.html"><b>Periféricos</b></a>
+                    </div>
                 </div>
-            </div>
-            <li><a href="#">Sobre nós</a></li>
-            <li><a href="#">Contato</a></li>
+            </li>
+            <li><a href="sobre.html"><b>Sobre nós</b></a></li>
+            <li><a href="contato.html"><b>Contato</b></a></li>
         </ul>
-        <span><img src="img/menu.svg"></span>
+        <span><img class="icone-menu" src="/img/menu.svg" alt="botao-menu"></span>
     </nav>
 
     <section class="titulo-topo">
-        <h1><b>MEMÓRIA RAM</b></h1>
+        <h1 class="titulo-item"><b>CELULARES</b></h1>
         <div class="item-produtos">
             <div class="produtos">
                 <div class="item">
@@ -66,19 +71,22 @@
                 </div>
             </div>
             <div class="descriçao">
-                <h1>Como escolher um bom celular?</h1>
-                <p>Escolher um bom celular significa escolher um dispositivo com um conjunto que atenda suas
-                    necessidades, alguns podem preferir melhores câmeras, mais bateria ou um melhor processador, vai de
-                    cada um.
-                </p>
-                <p>
-                    Se não procura nada em específico, vá em um bom balanço de custo x benefício.
-                </p>
+                <div class="texto-descriçao">
+                    <h1>Como escolher um bom celular?</h1>
+                    <p>Escolher um bom celular significa escolher um dispositivo com um conjunto que atenda suas
+                        necessidades, alguns podem preferir melhores câmeras, mais bateria ou um melhor processador, vai
+                        de
+                        cada um.
+                    </p>
+                    <p>
+                        Se não procura nada em específico, vá em um bom balanço de custo X benefício.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
 </body>
-<script src="js/script.js"></script>
+<script src="../js/script.js"></script>
 
 </html>
