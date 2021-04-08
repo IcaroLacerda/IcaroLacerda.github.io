@@ -187,6 +187,9 @@ textarea {
 }
 
 @media (max-width: 480px) {
+  .logo{
+    width: 30%;
+  }
   .promoçoes .conteudo .item img {
     width: 40%;
   }
